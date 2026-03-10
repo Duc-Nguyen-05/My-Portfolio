@@ -6,7 +6,7 @@ export const personalInfo = {
     gpa: "GPA: 3.75/4.0",
     scholarship: 3,
     gpa_4: 2,
-    transcriptLink: "https://drive.google.com/file/d/1qmOIKO60tbLPm4mHbvnkdD_QHnyfqzQU/view?usp=sharing",
+    transcriptLink: "https://drive.google.com/file/d/18Ctmvu-JjYAZglNRGdOcMs1dqCarPbFd/view?usp=sharing",
     // bio: (
     //     <>
     //         Driven by a passion for turning data into actionable intelligence, I am an aspiring AI Engineer focused on <span className="text-slate-100 font-medium">Natural Language Processing (NLP)</span> and <span className="text-slate-100 font-medium">Deep Learning</span>. My journey is defined by a <span className="italic text-slate-200">"learning by building"</span> mindset—transforming theoretical concepts into practical solutions.
