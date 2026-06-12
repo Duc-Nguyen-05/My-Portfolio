@@ -17,10 +17,21 @@ export const timelineData = [
         title: "AI Research Student",
         place: "Scientific Research Projects",
         date: "10/2025 - 01/2026",
-        desc: "Participated in researching and developing Deep Learning models.",
+        desc: "Participated in researching and developing Machine Learning and AI models.",
         details: [
-            "Built an LSTM model for Saltwater Intrusion prediction.",
+            "Developed predictive models using XGBoost and CatBoost with advanced data preprocessing for Saltwater Intrusion.",
             "Researched NLP algorithms for automated CV Ranking."
+        ]
+    },
+    {
+        type: "achievement",
+        title: "Scientific Research Awards",
+        place: "Faculty & University Level",
+        date: "2025 - 2026",
+        desc: "Recognized for outstanding scientific research projects.",
+        details: [
+            "First Prize (Faculty) & Third Prize (University) - AI Models for Mekong Delta Saltwater Intrusion Prediction (2025-2026)",
+            "Second Prize (Faculty) - NLP for Automated CV Screening and Ranking (2025-2026)"
         ]
     },
     {
@@ -41,7 +52,7 @@ export const timelineData = [
         date: "2024 - 2025",
         desc: "Completed specialized courses to strengthen technical foundation.",
         details: [
-            "Samsung AI Inovation",
+            "Samsung AI Innovation",
 
         ]
     }

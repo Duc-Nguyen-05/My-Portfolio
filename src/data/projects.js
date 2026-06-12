@@ -5,8 +5,8 @@ export const projects = [
         category: "AI Research",
         image: "https://placehold.co/600x400/1e293b/FFF?text=CV+Ranking+System",
         desc: "Automates resume scoring and ranking based on Job Description (JD) relevance utilizing advanced NLP techniques.",
-        tech: ["Python", "Scikit-learn", "NLP", "FastAPI"],
-        links: { code: "#", demo: "#" },
+        tech: ["Python", "ChromaDB", "GLiNER", "Gemini AI", "FastAPI"],
+        links: { code: "#", demo: "#", caseStudy: "/projects/cv-ranking" },
         isLive: true
     },
     {
@@ -15,8 +15,8 @@ export const projects = [
         category: "Engineering",
         image: "https://placehold.co/600x400/1e293b/FFF?text=ClassPal+Mobile+App",
         desc: "Empowers class monitors to manage events, tasks, and funds while keeping members updated. Features an AI Chatbot (via OpenRouter API) that automates the creation of events, tasks, and financial records.",
-        tech: ["Flutter", "Firebase", "OpenRouter API"],
-        links: { code: "https://github.com/Duc-Nguyen-05/ClassPal", demo: "#" },
+        tech: ["Flutter", "Firebase", "Riverpod", "OpenRouter API"],
+        links: { code: "https://github.com/Duc-Nguyen-05/ClassPal", demo: "#", caseStudy: "/projects/classpal" },
         isLive: true
     },
     {
@@ -24,9 +24,9 @@ export const projects = [
         title: "Saltwater Intrusion Forecast",
         category: "AI Research",
         image: "https://placehold.co/600x400/1e293b/FFF?text=Saltwater+Prediction",
-        desc: "Utilizes LSTM time-series analysis to predict salinity levels in the Mekong Delta, enabling farmers to proactively manage water resources.",
-        tech: ["Python", "Pandas", "LSTM", "Matplotlib"],
-        links: { code: "#", demo: "#" },
+        desc: "Developed a Global Spatial-Temporal Model utilizing XGBoost/CatBoost. Innovated with Physics-Informed Preprocessing (Knudsen eq, Stochastic PMM-KNN) and advanced spatial-temporal feature engineering to overcome highly sparse data.",
+        tech: ["Python", "Pandas", "XGBoost", "CatBoost"],
+        links: { code: "https://github.com/Duc-Nguyen-05/webGis_mekong-salinity-forecasting", demo: "https://web-gis-mekong-salinity-forecasting.vercel.app/", caseStudy: "/projects/saltwater-intrusion" },
         isLive: false
     }
 ];

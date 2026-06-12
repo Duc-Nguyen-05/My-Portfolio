@@ -5,7 +5,7 @@ import {
     siMysql,
     siPandas,
     siPytorch,
-    siScikitlearn,
+    siGooglegemini,
     siOpenrouter,
     siFlutter,
     siReact,
@@ -32,7 +32,7 @@ export const techStackCategories = [
         items: [
             { name: "Pandas", icon: siPandas },
             { name: "PyTorch", icon: siPytorch },
-            { name: "Scikit-learn", icon: siScikitlearn },
+            { name: "Gemini AI", icon: siGooglegemini },
             { name: "OpenRouter", icon: siOpenrouter },
         ]
     },

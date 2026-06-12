@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { personalInfo } from '@/data/personalInfo';
 import { projects } from '@/data/projects';
 import { techStackCategories } from '@/data/techStack';
@@ -23,6 +24,7 @@ import {
 } from 'lucide-react';
 
 export default function Portfolio() {
+  const router = useRouter();
   const [filter, setFilter] = useState('All');
 
   const filteredProjects = projects.filter(project =>
@@ -222,7 +224,11 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
-            <div key={project.id} className="group bg-[#121723] rounded-xl overflow-hidden border border-slate-800 hover:border-slate-600/50 hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg shadow-black/20">
+            <div 
+              key={project.id} 
+              onClick={() => project.links.caseStudy && router.push(project.links.caseStudy)}
+              className={`group bg-[#121723] rounded-xl overflow-hidden border border-slate-800 hover:border-slate-600/50 hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg shadow-black/20 ${project.links.caseStudy ? 'cursor-pointer' : ''}`}
+            >
               <div className="relative h-48 w-full overflow-hidden bg-slate-900">
                 <img
                   src={project.image}
@@ -254,13 +260,18 @@ export default function Portfolio() {
                   ))}
                 </div>
 
-                <div className="flex items-center gap-6 mt-auto pt-5 border-t border-slate-800/60 text-sm font-semibold">
-                  <a target='_blank' href={project.links.code} className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors">
+                <div className="flex flex-wrap items-center gap-4 xl:gap-6 mt-auto pt-5 border-t border-slate-800/60 text-sm font-semibold">
+                  <a target='_blank' href={project.links.code} onClick={(e) => e.stopPropagation()} className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors relative z-10">
                     <Github size={18} /> Code
                   </a>
-                  <a target='_blank' href={project.links.demo} className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors">
+                  <a target='_blank' href={project.links.demo} onClick={(e) => e.stopPropagation()} className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors relative z-10">
                     <Globe size={18} /> Demo
                   </a>
+                  {project.links.caseStudy && (
+                    <a href={project.links.caseStudy} onClick={(e) => { e.preventDefault(); e.stopPropagation(); router.push(project.links.caseStudy); }} className="flex items-center gap-2 text-emerald-400 hover:text-emerald-300 transition-colors ml-auto relative z-10">
+                      <Scroll size={18} /> Case Study
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
