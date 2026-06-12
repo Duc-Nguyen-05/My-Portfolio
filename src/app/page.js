@@ -91,9 +91,9 @@ export default function Portfolio() {
               <div className="absolute -inset-1 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
               <div className="relative w-full h-full rounded-full p-1 bg-[#0A0F1A] ring-1 ring-slate-700/50 overflow-hidden">
                 <img
-                  src="/avatar.jpg"
+                  src="/avatar1.png"
                   alt="Avatar"
-                  className="w-full h-full rounded-full object-cover hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain scale-[1.35] translate-y-3 hover:scale-[1.45] transition-transform duration-500"
                 />
               </div>
               <div className="absolute bottom-2 right-3 bg-[#0A0F1A] border border-emerald-500/30 text-emerald-400 text-[10px] font-bold px-3 py-1 rounded-full shadow-lg shadow-emerald-900/20 flex items-center gap-1.5 backdrop-blur-md">
