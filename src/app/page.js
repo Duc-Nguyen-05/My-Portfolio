@@ -140,7 +140,7 @@ export default function Portfolio() {
             </div>
 
             <div className="flex flex-wrap gap-3 mb-10">
-              <a href="#" className="px-5 py-2 bg-slate-100 hover:bg-white text-slate-900 font-bold rounded-lg transition-all flex items-center gap-2 text-sm shadow-lg shadow-slate-900/20 hover:-translate-y-0.5">
+              <a target="_blank" href={personalInfo.cvLink} className="px-5 py-2 bg-slate-100 hover:bg-white text-slate-900 font-bold rounded-lg transition-all flex items-center gap-2 text-sm shadow-lg shadow-slate-900/20 hover:-translate-y-0.5">
                 <Download size={16} /> Download CV
               </a>
               <a target="_blank" href={personalInfo.transcriptLink} className="px-5 py-2 bg-transparent border border-slate-700 text-slate-300 font-medium rounded-lg hover:border-slate-500 hover:text-white transition-all flex items-center gap-2 text-sm hover:bg-slate-800/30">
