@@ -224,8 +224,8 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
-            <div 
-              key={project.id} 
+            <div
+              key={project.id}
               onClick={() => project.links.caseStudy && router.push(project.links.caseStudy)}
               className={`group bg-[#121723] rounded-xl overflow-hidden border border-slate-800 hover:border-slate-600/50 hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg shadow-black/20 ${project.links.caseStudy ? 'cursor-pointer' : ''}`}
             >
@@ -398,7 +398,7 @@ export default function Portfolio() {
             Eager to Learn. Ready to Build.
           </h2>
           <p className="text-base md:text-lg text-slate-300 mb-10 max-w-xl mx-auto leading-relaxed font-light">
-            I am seeking an <span className="text-blue-300 font-semibold border-b border-blue-500/30">AI Engineer</span> or <span className="text-blue-300 font-semibold border-b border-blue-500/30">Backend Developer</span> Internship to bridge the gap between academic theory and real-world application.
+            I am seeking an <span className="text-blue-300 font-semibold border-b border-blue-500/30">AI Engineer</span> Internship to bridge the gap between academic theory and real-world application.
             <br className="hidden md:block" />
             <br className="hidden md:block" />
             While I am early in my journey, I bring a <strong>strong foundation</strong>, a <strong>relentless drive to learn</strong>, and the dedication to grow into a valuable team member under your mentorship.
