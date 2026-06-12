@@ -6,7 +6,7 @@ export const projects = [
         image: "https://placehold.co/600x400/1e293b/FFF?text=CV+Ranking+System",
         desc: "Automates resume scoring and ranking based on Job Description (JD) relevance utilizing advanced NLP techniques.",
         tech: ["Python", "ChromaDB", "GLiNER", "Gemini AI"],
-        links: { code: "#", demo: "#", caseStudy: "/projects/cv-ranking" },
+        links: { code: "https://github.com/Duc-Nguyen-05/CV-Ranking", demo: "#", caseStudy: "/projects/cv-ranking" },
         isLive: true
     },
     {
