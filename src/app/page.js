@@ -264,7 +264,13 @@ export default function Portfolio() {
                   <a target='_blank' href={project.links.code} onClick={(e) => e.stopPropagation()} className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors relative z-10">
                     <Github size={18} /> Code
                   </a>
-                  <a target='_blank' href={project.links.demo} onClick={(e) => e.stopPropagation()} className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors relative z-10">
+                  <a target={project.links.demo !== '#' ? '_blank' : '_self'} href={project.links.demo} onClick={(e) => {
+                    e.stopPropagation();
+                    if (project.links.demo === '#') {
+                      e.preventDefault();
+                      alert('A live demo is not available for this project yet.');
+                    }
+                  }} className="flex items-center gap-2 text-slate-400 hover:text-blue-400 transition-colors relative z-10">
                     <Globe size={18} /> Demo
                   </a>
                   {project.links.caseStudy && (
