@@ -3,11 +3,11 @@ export const personalInfo = {
     role: "AI Engineer",
     year: "Third-year student majoring in IT",
     university: "Thuyloi University",
-    gpa: "GPA: 3.78/4.0",
+    gpa: "GPA: 3.86/4.0",
     scholarship: 4,
     gpa_4: 2,
-    transcriptLink: "https://drive.google.com/file/d/18Ctmvu-JjYAZglNRGdOcMs1dqCarPbFd/view?usp=sharing",
-    cvLink: "https://drive.google.com/file/d/1NBea-_b3A0eVkXq2t8tBAqt7zRV6X7sn/view?usp=sharing",
+    transcriptLink: "https://drive.google.com/file/d/1Hh7Wh9vVHuHPuglnJ5R_3EvUNAZd5i2w/view?usp=sharing",
+    cvLink: "https://drive.google.com/file/d/1rHmaJWgF3qbjtXRjfMNR2ZDaX3OMzvkB/view?usp=sharing",
     // bio: (
     //     <>
     //         Driven by a passion for turning data into actionable intelligence, I am an aspiring AI Engineer focused on <span className="text-slate-100 font-medium">Natural Language Processing (NLP)</span> and <span className="text-slate-100 font-medium">Deep Learning</span>. My journey is defined by a <span className="italic text-slate-200">"learning by building"</span> mindset—transforming theoretical concepts into practical solutions.
