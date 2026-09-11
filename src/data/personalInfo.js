@@ -3,10 +3,10 @@ export const personalInfo = {
     role: "AI Engineer",
     year: "Third-year student majoring in IT",
     university: "Thuyloi University",
-    gpa: "GPA: 3.86/4.0",
+    gpa: "GPA: 3.91/4.0",
     scholarship: 4,
-    gpa_4: 2,
-    transcriptLink: "https://drive.google.com/file/d/1Hh7Wh9vVHuHPuglnJ5R_3EvUNAZd5i2w/view?usp=sharing",
+    gpa_4: 4,
+    transcriptLink: "https://drive.google.com/file/d/1MBTVsUrEb2rk3U-837nCOOn0CNnMMrtv/view?usp=sharing",
     cvLink: "https://drive.google.com/file/d/1_bSZtR5cJWTf6dHi4Qg024fRUV6ky_ul/view?usp=drive_link",
     // bio: (
     //     <>

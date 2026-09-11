@@ -7,7 +7,7 @@ Dưới đây là nội dung chuẩn bị cho CV của bạn bằng Tiếng Vi�
 ---
 
 ## 🎯 MỤC TIÊU NGHỀ NGHIỆP (CAREER OBJECTIVE)
-Sinh viên năm 3 CNTT (GPA 3.78/4.0) đam mê Trí tuệ Nhân tạo, đặc biệt là NLP và Deep Learning. Từng đạt nhiều giải thưởng NCKH với tư duy "Học qua thực hành". Mong muốn tìm kiếm cơ hội **Thực tập sinh AI Engineer** để ứng dụng các mô hình AI vào sản phẩm thực tế và phát triển năng lực chuyên môn cùng công ty.
+Sinh viên năm 3 CNTT (GPA 3.91/4.0) đam mê Trí tuệ Nhân tạo, đặc biệt là NLP và Deep Learning. Từng đạt nhiều giải thưởng NCKH với tư duy "Học qua thực hành". Mong muốn tìm kiếm cơ hội **Thực tập sinh AI Engineer** để ứng dụng các mô hình AI vào sản phẩm thực tế và phát triển năng lực chuyên môn cùng công ty.
 
 ---
 
