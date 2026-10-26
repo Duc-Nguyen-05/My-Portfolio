@@ -4,7 +4,7 @@ export const personalInfo = {
     year: "Third-year student majoring in IT",
     university: "Thuyloi University",
     gpa: "GPA: 3.91/4.0",
-    scholarship: 4,
+    scholarship: 5,
     gpa_4: 4,
     transcriptLink: "https://drive.google.com/file/d/1MBTVsUrEb2rk3U-837nCOOn0CNnMMrtv/view?usp=sharing",
     cvLink: "https://drive.google.com/file/d/1U0Vwi5Dp6QtctujGOk4ZVRvTrjk0Dstq/view?usp=sharing",
